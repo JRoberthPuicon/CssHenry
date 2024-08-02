@@ -1,0 +1,47 @@
+.title{
+    font-size: 40px;
+    color: crimson;
+}
+
+#principal{
+    font-size: 3em;
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+}
+
+#titulos{
+    border: 2px solid black;
+    width: 60vw;
+    margin: auto;
+    padding: 10px;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: darkgoldenrod;
+}
+
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+}
